@@ -1,0 +1,9 @@
+version: '3'
+services:
+  nginx:
+    image: nginx:1.19-alpine
+    ports:
+      - '80:80/udp'
+      - '80:80/tcp'
+      - '443:443/udp'
+      - '443:443/tcp'
